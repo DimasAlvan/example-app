@@ -1,4 +1,4 @@
-@extends('products.layout')
+@extends('layout')
 
 @section('content')
     <div class="row">
@@ -43,6 +43,6 @@
         </tr>
         @endforeach
     </table>
-  
+
     {!! $products->links() !!}
 @endsection

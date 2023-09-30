@@ -1,4 +1,4 @@
-@extends('customers.layout')
+@extends('layout')
 
 @section('content')
     <div class="row">
@@ -6,7 +6,7 @@
             <div class="pull-left">
                 <h2>Daftar Pelanggan</h2>
             </div>
-            <div class="pull-right">
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
                 <a class="btn btn-info" href="{{ route('customers.create') }}">Tambah Pelanggan</a>
             </div>
         </div>
